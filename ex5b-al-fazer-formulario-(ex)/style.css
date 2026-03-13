@@ -1,0 +1,37 @@
+/* 2ª Digitação (Aqui) */
+.custom-form {
+    background: linear-gradient(145deg, #0042a6, #ae00a2);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 60%;
+    max-width: 500px;
+}
+.form-label {
+    color: white;
+}
+.custom-icon {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+.form-control.custom-input {
+    border: 3px solid #e74c3c;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.form-control.custom-input:focus {
+    border-color: #2ecc71;
+    transform: scale(1.02);
+}
+.input-group {
+    width: 100%;
+}
+.btn.btn-primary.custom-button {
+    background: linear-gradient(45deg, #bca602, #ff0000);
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    border: none;
+}
+.btn.btn-primary.custom-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(231, 76, 60, 0.4);
+}
